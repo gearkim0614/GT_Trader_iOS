@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    @IBOutlet weak var nameField: UITextField!
+    
     @IBOutlet weak var PilotLabel: UILabel!
     
     @IBOutlet weak var EngineerLabel: UILabel!
@@ -36,6 +38,11 @@ class ViewController: UIViewController {
     
     @IBAction func TraderSlider(_ sender: UISlider) {
         TraderLabel.text = String(Int(sender.value))
+    }
+    
+
+    @IBAction func createPlayer(_ sender: UIButton) {
+        
     }
     
     

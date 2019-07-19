@@ -127,6 +127,9 @@
                                 <rect key="frame" x="291" y="708" width="84" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start Game"/>
+                                <connections>
+                                    <action selector="createPlayer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2ig-G0-7Gm"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
