@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD5B555922E1CA5300D2BCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B555822E1CA5300D2BCA3 /* AppDelegate.swift */; };
+		BD5B555B22E1CA5300D2BCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */; };
+		BD5B555E22E1CA5300D2BCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5B555C22E1CA5300D2BCA3 /* Main.storyboard */; };
+		BD5B556122E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD5B555F22E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld */; };
+		BD5B556322E1CA5400D2BCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD5B556222E1CA5400D2BCA3 /* Assets.xcassets */; };
+		BD5B556622E1CA5400D2BCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5B556422E1CA5400D2BCA3 /* LaunchScreen.storyboard */; };
+		BD5B557122E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B557022E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift */; };
+		BD5B557C22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD5B556D22E1CA5400D2BCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5B554D22E1CA5300D2BCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5B555422E1CA5300D2BCA3;
+			remoteInfo = GT_Trader_iOS;
+		};
+		BD5B557822E1CA5500D2BCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD5B554D22E1CA5300D2BCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD5B555422E1CA5300D2BCA3;
+			remoteInfo = GT_Trader_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD5B555522E1CA5300D2BCA3 /* GT_Trader_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GT_Trader_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5B555822E1CA5300D2BCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD5B555D22E1CA5300D2BCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD5B556022E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GT_Trader_iOS.xcdatamodel; sourceTree = "<group>"; };
+		BD5B556222E1CA5400D2BCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD5B556522E1CA5400D2BCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD5B556722E1CA5400D2BCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5B556C22E1CA5400D2BCA3 /* GT_Trader_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GT_Trader_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5B557022E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Trader_iOSTests.swift; sourceTree = "<group>"; };
+		BD5B557222E1CA5400D2BCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5B557722E1CA5500D2BCA3 /* GT_Trader_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GT_Trader_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Trader_iOSUITests.swift; sourceTree = "<group>"; };
+		BD5B557D22E1CA5500D2BCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD5B555222E1CA5300D2BCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B556922E1CA5400D2BCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B557422E1CA5500D2BCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD5B554C22E1CA5300D2BCA3 = {
+			isa = PBXGroup;
+			children = (
+				BD5B555722E1CA5300D2BCA3 /* GT_Trader_iOS */,
+				BD5B556F22E1CA5400D2BCA3 /* GT_Trader_iOSTests */,
+				BD5B557A22E1CA5500D2BCA3 /* GT_Trader_iOSUITests */,
+				BD5B555622E1CA5300D2BCA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD5B555622E1CA5300D2BCA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B555522E1CA5300D2BCA3 /* GT_Trader_iOS.app */,
+				BD5B556C22E1CA5400D2BCA3 /* GT_Trader_iOSTests.xctest */,
+				BD5B557722E1CA5500D2BCA3 /* GT_Trader_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD5B555722E1CA5300D2BCA3 /* GT_Trader_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B555822E1CA5300D2BCA3 /* AppDelegate.swift */,
+				BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */,
+				BD5B555C22E1CA5300D2BCA3 /* Main.storyboard */,
+				BD5B556222E1CA5400D2BCA3 /* Assets.xcassets */,
+				BD5B556422E1CA5400D2BCA3 /* LaunchScreen.storyboard */,
+				BD5B556722E1CA5400D2BCA3 /* Info.plist */,
+				BD5B555F22E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld */,
+			);
+			path = GT_Trader_iOS;
+			sourceTree = "<group>";
+		};
+		BD5B556F22E1CA5400D2BCA3 /* GT_Trader_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B557022E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift */,
+				BD5B557222E1CA5400D2BCA3 /* Info.plist */,
+			);
+			path = GT_Trader_iOSTests;
+			sourceTree = "<group>";
+		};
+		BD5B557A22E1CA5500D2BCA3 /* GT_Trader_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */,
+				BD5B557D22E1CA5500D2BCA3 /* Info.plist */,
+			);
+			path = GT_Trader_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD5B555422E1CA5300D2BCA3 /* GT_Trader_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5B558022E1CA5500D2BCA3 /* Build configuration list for PBXNativeTarget "GT_Trader_iOS" */;
+			buildPhases = (
+				BD5B555122E1CA5300D2BCA3 /* Sources */,
+				BD5B555222E1CA5300D2BCA3 /* Frameworks */,
+				BD5B555322E1CA5300D2BCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GT_Trader_iOS;
+			productName = GT_Trader_iOS;
+			productReference = BD5B555522E1CA5300D2BCA3 /* GT_Trader_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD5B556B22E1CA5400D2BCA3 /* GT_Trader_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5B558322E1CA5500D2BCA3 /* Build configuration list for PBXNativeTarget "GT_Trader_iOSTests" */;
+			buildPhases = (
+				BD5B556822E1CA5400D2BCA3 /* Sources */,
+				BD5B556922E1CA5400D2BCA3 /* Frameworks */,
+				BD5B556A22E1CA5400D2BCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5B556E22E1CA5400D2BCA3 /* PBXTargetDependency */,
+			);
+			name = GT_Trader_iOSTests;
+			productName = GT_Trader_iOSTests;
+			productReference = BD5B556C22E1CA5400D2BCA3 /* GT_Trader_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD5B557622E1CA5500D2BCA3 /* GT_Trader_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD5B558622E1CA5500D2BCA3 /* Build configuration list for PBXNativeTarget "GT_Trader_iOSUITests" */;
+			buildPhases = (
+				BD5B557322E1CA5500D2BCA3 /* Sources */,
+				BD5B557422E1CA5500D2BCA3 /* Frameworks */,
+				BD5B557522E1CA5500D2BCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD5B557922E1CA5500D2BCA3 /* PBXTargetDependency */,
+			);
+			name = GT_Trader_iOSUITests;
+			productName = GT_Trader_iOSUITests;
+			productReference = BD5B557722E1CA5500D2BCA3 /* GT_Trader_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD5B554D22E1CA5300D2BCA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kibeom Kim";
+				TargetAttributes = {
+					BD5B555422E1CA5300D2BCA3 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BD5B556B22E1CA5400D2BCA3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD5B555422E1CA5300D2BCA3;
+					};
+					BD5B557622E1CA5500D2BCA3 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BD5B555422E1CA5300D2BCA3;
+					};
+				};
+			};
+			buildConfigurationList = BD5B555022E1CA5300D2BCA3 /* Build configuration list for PBXProject "GT_Trader_iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD5B554C22E1CA5300D2BCA3;
+			productRefGroup = BD5B555622E1CA5300D2BCA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD5B555422E1CA5300D2BCA3 /* GT_Trader_iOS */,
+				BD5B556B22E1CA5400D2BCA3 /* GT_Trader_iOSTests */,
+				BD5B557622E1CA5500D2BCA3 /* GT_Trader_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD5B555322E1CA5300D2BCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5B556622E1CA5400D2BCA3 /* LaunchScreen.storyboard in Resources */,
+				BD5B556322E1CA5400D2BCA3 /* Assets.xcassets in Resources */,
+				BD5B555E22E1CA5300D2BCA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B556A22E1CA5400D2BCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B557522E1CA5500D2BCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD5B555122E1CA5300D2BCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5B555B22E1CA5300D2BCA3 /* ViewController.swift in Sources */,
+				BD5B555922E1CA5300D2BCA3 /* AppDelegate.swift in Sources */,
+				BD5B556122E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B556822E1CA5400D2BCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5B557122E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD5B557322E1CA5500D2BCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD5B557C22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD5B556E22E1CA5400D2BCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5B555422E1CA5300D2BCA3 /* GT_Trader_iOS */;
+			targetProxy = BD5B556D22E1CA5400D2BCA3 /* PBXContainerItemProxy */;
+		};
+		BD5B557922E1CA5500D2BCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD5B555422E1CA5300D2BCA3 /* GT_Trader_iOS */;
+			targetProxy = BD5B557822E1CA5500D2BCA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD5B555C22E1CA5300D2BCA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5B555D22E1CA5300D2BCA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD5B556422E1CA5400D2BCA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD5B556522E1CA5400D2BCA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD5B557E22E1CA5500D2BCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD5B557F22E1CA5500D2BCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD5B558122E1CA5500D2BCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GT_Trader_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kibeom-Kim.GT-Trader-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD5B558222E1CA5500D2BCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GT_Trader_iOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kibeom-Kim.GT-Trader-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BD5B558422E1CA5500D2BCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GT_Trader_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kibeom-Kim.GT-Trader-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GT_Trader_iOS.app/GT_Trader_iOS";
+			};
+			name = Debug;
+		};
+		BD5B558522E1CA5500D2BCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GT_Trader_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kibeom-Kim.GT-Trader-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GT_Trader_iOS.app/GT_Trader_iOS";
+			};
+			name = Release;
+		};
+		BD5B558722E1CA5500D2BCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GT_Trader_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kibeom-Kim.GT-Trader-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GT_Trader_iOS;
+			};
+			name = Debug;
+		};
+		BD5B558822E1CA5500D2BCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GT_Trader_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kibeom-Kim.GT-Trader-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GT_Trader_iOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD5B555022E1CA5300D2BCA3 /* Build configuration list for PBXProject "GT_Trader_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5B557E22E1CA5500D2BCA3 /* Debug */,
+				BD5B557F22E1CA5500D2BCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5B558022E1CA5500D2BCA3 /* Build configuration list for PBXNativeTarget "GT_Trader_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5B558122E1CA5500D2BCA3 /* Debug */,
+				BD5B558222E1CA5500D2BCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5B558322E1CA5500D2BCA3 /* Build configuration list for PBXNativeTarget "GT_Trader_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5B558422E1CA5500D2BCA3 /* Debug */,
+				BD5B558522E1CA5500D2BCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD5B558622E1CA5500D2BCA3 /* Build configuration list for PBXNativeTarget "GT_Trader_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD5B558722E1CA5500D2BCA3 /* Debug */,
+				BD5B558822E1CA5500D2BCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD5B555F22E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD5B556022E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodel */,
+			);
+			currentVersion = BD5B556022E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodel */;
+			path = GT_Trader_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD5B554D22E1CA5300D2BCA3 /* Project object */;
+}
