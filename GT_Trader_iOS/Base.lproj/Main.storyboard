@@ -18,28 +18,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="qJi-qa-WN9">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="qJi-qa-WN9" userLabel="Pilot Slider">
                                 <rect key="frame" x="259" y="316" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="PilotSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="8ZO-Q0-ahM"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="kVv-Qv-PCH">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="kVv-Qv-PCH" userLabel="Engineer Slider">
                                 <rect key="frame" x="259" y="382" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="EngineerSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="UNF-tr-Lq7"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-sV-R5e">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="ffe-sV-R5e" userLabel="Fighter Slider">
                                 <rect key="frame" x="259" y="446" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="FighterSlider:" destination="BYZ-38-t0r" eventType="valueChanged" id="e5Q-Vt-NhF"/>
                                 </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="6tT-tM-YYC">
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="4" minValue="0.0" maxValue="16" translatesAutoresizingMaskIntoConstraints="NO" id="6tT-tM-YYC" userLabel="Trader Slider">
                                 <rect key="frame" x="259" y="508" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -74,28 +74,28 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Pilot" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FAa-CL-FZ7">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Pilot" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FAa-CL-FZ7" userLabel="Pilot">
                                 <rect key="frame" x="37" y="316" width="96" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Engineer" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uIW-ZF-sSM">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Engineer" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="uIW-ZF-sSM" userLabel="Engineer">
                                 <rect key="frame" x="37" y="381" width="96" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Fighter" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-TS-yiY">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Fighter" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="2O6-TS-yiY" userLabel="Fighter">
                                 <rect key="frame" x="37" y="446" width="96" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Trader" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fwa-aG-qQn">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Trader" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fwa-aG-qQn" userLabel="Trader">
                                 <rect key="frame" x="37" y="500" width="96" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -109,14 +109,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to GT Trader App on iOS!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9IR-9p-l1w">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to GT Trader App on iOS!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9IR-9p-l1w" userLabel="Welcome">
                                 <rect key="frame" x="20" y="44" width="374" height="61"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Assign your 16 skill points" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="62l-em-xnW">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Assign your 16 skill points" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="62l-em-xnW" userLabel="Assign">
                                 <rect key="frame" x="37" y="168" width="299" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
