@@ -15,6 +15,7 @@
 		BD5B556622E1CA5400D2BCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5B556422E1CA5400D2BCA3 /* LaunchScreen.storyboard */; };
 		BD5B557122E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B557022E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift */; };
 		BD5B557C22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */; };
+		BD5B558C22E2AE8B00D2BCA3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B558B22E2AE8B00D2BCA3 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		BD5B557722E1CA5500D2BCA3 /* GT_Trader_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GT_Trader_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Trader_iOSUITests.swift; sourceTree = "<group>"; };
 		BD5B557D22E1CA5500D2BCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD5B558B22E2AE8B00D2BCA3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				BD5B556422E1CA5400D2BCA3 /* LaunchScreen.storyboard */,
 				BD5B556722E1CA5400D2BCA3 /* Info.plist */,
 				BD5B555F22E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld */,
+				BD5B558B22E2AE8B00D2BCA3 /* Player.swift */,
 			);
 			path = GT_Trader_iOS;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD5B558C22E2AE8B00D2BCA3 /* Player.swift in Sources */,
 				BD5B555B22E1CA5300D2BCA3 /* ViewController.swift in Sources */,
 				BD5B555922E1CA5300D2BCA3 /* AppDelegate.swift in Sources */,
 				BD5B556122E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld in Sources */,
