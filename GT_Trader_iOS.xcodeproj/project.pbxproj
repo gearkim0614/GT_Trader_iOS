@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD45867922E4B1F200FC7AE8 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD45867822E4B1F200FC7AE8 /* MarketViewController.swift */; };
 		BD5B555922E1CA5300D2BCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B555822E1CA5300D2BCA3 /* AppDelegate.swift */; };
 		BD5B555B22E1CA5300D2BCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */; };
 		BD5B555E22E1CA5300D2BCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD5B555C22E1CA5300D2BCA3 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 		BD5B557122E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B557022E1CA5400D2BCA3 /* GT_Trader_iOSTests.swift */; };
 		BD5B557C22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */; };
 		BD5B558C22E2AE8B00D2BCA3 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD5B558B22E2AE8B00D2BCA3 /* Player.swift */; };
+		BDAA6C2722E4D24B00FB8EDF /* TravelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAA6C2622E4D24B00FB8EDF /* TravelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BD45867822E4B1F200FC7AE8 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		BD5B555522E1CA5300D2BCA3 /* GT_Trader_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GT_Trader_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD5B555822E1CA5300D2BCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +54,7 @@
 		BD5B557B22E1CA5500D2BCA3 /* GT_Trader_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GT_Trader_iOSUITests.swift; sourceTree = "<group>"; };
 		BD5B557D22E1CA5500D2BCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD5B558B22E2AE8B00D2BCA3 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BDAA6C2622E4D24B00FB8EDF /* TravelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BD45867722E4B1B600FC7AE8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BDAA6C2622E4D24B00FB8EDF /* TravelViewController.swift */,
+				BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */,
+				BD45867822E4B1F200FC7AE8 /* MarketViewController.swift */,
+				BDAA6C2522E4C07C00FB8EDF /* Model */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BD5B554C22E1CA5300D2BCA3 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +116,13 @@
 		BD5B555722E1CA5300D2BCA3 /* GT_Trader_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				BD45867722E4B1B600FC7AE8 /* Controller */,
 				BD5B555822E1CA5300D2BCA3 /* AppDelegate.swift */,
-				BD5B555A22E1CA5300D2BCA3 /* ViewController.swift */,
 				BD5B555C22E1CA5300D2BCA3 /* Main.storyboard */,
 				BD5B556222E1CA5400D2BCA3 /* Assets.xcassets */,
 				BD5B556422E1CA5400D2BCA3 /* LaunchScreen.storyboard */,
 				BD5B556722E1CA5400D2BCA3 /* Info.plist */,
 				BD5B555F22E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld */,
-				BD5B558B22E2AE8B00D2BCA3 /* Player.swift */,
 			);
 			path = GT_Trader_iOS;
 			sourceTree = "<group>";
@@ -130,6 +144,15 @@
 			);
 			path = GT_Trader_iOSUITests;
 			sourceTree = "<group>";
+		};
+		BDAA6C2522E4C07C00FB8EDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD5B558B22E2AE8B00D2BCA3 /* Player.swift */,
+			);
+			name = Model;
+			path = GT_Trader_iOS/Model;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -262,8 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDAA6C2722E4D24B00FB8EDF /* TravelViewController.swift in Sources */,
 				BD5B558C22E2AE8B00D2BCA3 /* Player.swift in Sources */,
 				BD5B555B22E1CA5300D2BCA3 /* ViewController.swift in Sources */,
+				BD45867922E4B1F200FC7AE8 /* MarketViewController.swift in Sources */,
 				BD5B555922E1CA5300D2BCA3 /* AppDelegate.swift in Sources */,
 				BD5B556122E1CA5300D2BCA3 /* GT_Trader_iOS.xcdatamodeld in Sources */,
 			);
