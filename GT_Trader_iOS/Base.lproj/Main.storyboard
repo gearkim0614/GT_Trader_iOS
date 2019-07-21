@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Da-ge-kf3">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -102,27 +102,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DKp-ab-KJV">
-                                <rect key="frame" x="38" y="113" width="338" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to GT Trader App on iOS!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9IR-9p-l1w" userLabel="Welcome">
-                                <rect key="frame" x="20" y="44" width="374" height="61"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Assign your 16 skill points" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="62l-em-xnW" userLabel="Assign">
-                                <rect key="frame" x="37" y="168" width="299" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lxr-A9-gbi">
                                 <rect key="frame" x="291" y="796" width="84" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -132,7 +111,7 @@
                                     <segue destination="vlq-j2-Pc3" kind="show" id="PvC-7m-j5x"/>
                                 </connections>
                             </button>
-                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HhP-Ke-T7x">
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HhP-Ke-T7x" customClass="v">
                                 <rect key="frame" x="0.0" y="557" width="414" height="216"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <connections>
@@ -140,6 +119,27 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="In6-lU-liW"/>
                                 </connections>
                             </pickerView>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your name here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DKp-ab-KJV">
+                                <rect key="frame" x="40" y="184" width="338" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome to GT Trader App on iOS!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="9IR-9p-l1w" userLabel="Welcome">
+                                <rect key="frame" x="22" y="115" width="374" height="61"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Assign your 16 skill points" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="62l-em-xnW" userLabel="Assign">
+                                <rect key="frame" x="39" y="239" width="299" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -149,11 +149,11 @@
                                 <exclude reference="uIW-ZF-sSM"/>
                                 <exclude reference="2O6-TS-yiY"/>
                                 <exclude reference="Fwa-aG-qQn"/>
+                                <exclude reference="lxr-A9-gbi"/>
+                                <exclude reference="HhP-Ke-T7x"/>
                                 <exclude reference="DKp-ab-KJV"/>
                                 <exclude reference="9IR-9p-l1w"/>
                                 <exclude reference="62l-em-xnW"/>
-                                <exclude reference="lxr-A9-gbi"/>
-                                <exclude reference="HhP-Ke-T7x"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -162,14 +162,15 @@
                                 <include reference="uIW-ZF-sSM"/>
                                 <include reference="2O6-TS-yiY"/>
                                 <include reference="Fwa-aG-qQn"/>
+                                <include reference="lxr-A9-gbi"/>
+                                <include reference="HhP-Ke-T7x"/>
                                 <include reference="DKp-ab-KJV"/>
                                 <include reference="9IR-9p-l1w"/>
                                 <include reference="62l-em-xnW"/>
-                                <include reference="lxr-A9-gbi"/>
-                                <include reference="HhP-Ke-T7x"/>
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="zrb-g4-ES4"/>
                     <connections>
                         <outlet property="EngineerLabel" destination="lV9-pe-tr9" id="wUl-2B-nr3"/>
                         <outlet property="FighterLabel" destination="Zkd-zc-Slm" id="vJ0-Ey-yXp"/>
@@ -177,16 +178,17 @@
                         <outlet property="TraderLabel" destination="Rpr-o5-wRR" id="QQ7-un-BpD"/>
                         <outlet property="nameField" destination="DKp-ab-KJV" id="gXB-2l-rM6"/>
                         <outlet property="pickerView" destination="HhP-Ke-T7x" id="UkA-WO-ct7"/>
+                        <segue destination="vlq-j2-Pc3" kind="show" id="4z1-MX-Dl2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="136.23188405797103" y="132.58928571428572"/>
         </scene>
-        <!--View Controller-->
+        <!--Control View Controller-->
         <scene sceneID="4PI-CB-GzL">
             <objects>
-                <viewController id="vlq-j2-Pc3" sceneMemberID="viewController">
+                <viewController id="vlq-j2-Pc3" userLabel="Control View Controller" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hye-lY-D13">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -202,8 +204,15 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="2H3-fz-IpF"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XEJ-h0-afs">
+                                <rect key="frame" x="0.0" y="31" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Main menu" id="r4i-Qp-yJk"/>
+                                </items>
+                            </navigationBar>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdA-DK-iR3" userLabel="MarketPlace">
-                                <rect key="frame" x="54" y="101" width="307" height="108"/>
+                                <rect key="frame" x="54" y="165" width="307" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="MarketPlace"/>
                                 <connections>
@@ -211,7 +220,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wk0-dT-awU">
-                                <rect key="frame" x="54" y="114" width="160" height="82"/>
+                                <rect key="frame" x="54" y="178" width="160" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -225,7 +234,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wuc-9M-CE3">
-                                <rect key="frame" x="54" y="313" width="307" height="108"/>
+                                <rect key="frame" x="54" y="377" width="307" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="travel"/>
                                 <connections>
@@ -233,7 +242,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgD-cq-TTB">
-                                <rect key="frame" x="54" y="324" width="160" height="82"/>
+                                <rect key="frame" x="54" y="388" width="160" height="82"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <attributedString key="attributedText">
@@ -246,13 +255,6 @@
                                 </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XEJ-h0-afs">
-                                <rect key="frame" x="0.0" y="31" width="414" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="Main menu" id="r4i-Qp-yJk"/>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Uef-qz-KWc"/>
@@ -272,66 +274,137 @@
             </objects>
             <point key="canvasLocation" x="1257.9710144927537" y="-89.0625"/>
         </scene>
-        <!--View Controller-->
+        <!--Travel View Controller-->
         <scene sceneID="1u9-H8-txG">
             <objects>
-                <viewController id="OwL-Ba-reL" sceneMemberID="viewController">
+                <viewController id="OwL-Ba-reL" customClass="TravelViewController" customModule="GT_Trader_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tJi-wq-Kcp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="BH0-ez-czv">
-                                <rect key="frame" x="98" y="245" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="campus" translatesAutoresizingMaskIntoConstraints="NO" id="OSs-IJ-bKf">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </mapView>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3st-yu-OO9">
+                                <rect key="frame" x="0.0" y="47" width="298" height="162"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="OwL-Ba-reL" id="shK-ha-ou5"/>
+                                    <outlet property="delegate" destination="OwL-Ba-reL" id="nKy-BQ-jwQ"/>
+                                </connections>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pq4-fQ-eEf">
+                                <rect key="frame" x="306" y="101" width="105" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.75406885150000003" green="0.75408679249999999" blue="0.75407713649999997" alpha="0.50355843321917804" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="GO!">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vlq-j2-Pc3" kind="show" id="oBH-l8-jL1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="XKj-jx-gZg"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="3st-yu-OO9" id="vsr-DB-49Q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pZj-i0-6B6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3223" y="-376"/>
+            <point key="canvasLocation" x="3221.739130434783" y="-376.33928571428572"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="PCe-dz-mxV">
+            <objects>
+                <navigationController id="5Da-ge-kf3" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gBe-gN-XeL">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="166-4Q-ifA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LAS-Tm-k4B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-870" y="133"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="gAl-3z-tbZ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wns-aI-Pkl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="Wbl-Af-Uha" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="r4H-SP-dem">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="9Sa-bS-q7F"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="3483" y="-1426"/>
+        </scene>
+        <!--MarketViewController-->
         <scene sceneID="qwV-Ur-usK">
             <objects>
-                <viewController id="SVR-bu-aMa" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="GWq-gX-mpi">
+                <viewController id="SVR-bu-aMa" userLabel="MarketViewController" customClass="MarketViewController" customModule="GT_Trader_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GWq-gX-mpi" userLabel="MarketView">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ku3-yE-jUC">
-                                <rect key="frame" x="275" y="209" width="94" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="wr1-lA-pje">
                                 <rect key="frame" x="275" y="275" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="snackStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="Oge-ox-k4C"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="dUg-uf-0tW">
                                 <rect key="frame" x="275" y="338" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="foodStepper:" destination="AaX-Cu-hys" eventType="valueChanged" id="BIm-Rz-xF3"/>
+                                    <action selector="foodStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="TbF-nd-Rhq"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="hkh-aN-Ebk">
                                 <rect key="frame" x="275" y="401" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="bowlingStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="bas-r9-PkI"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="OTj-NW-jbR">
                                 <rect key="frame" x="275" y="466" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="mealStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="Xct-Qg-lbq"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="gSn-xf-hKf">
                                 <rect key="frame" x="275" y="527" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="uberStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="iPn-Yk-1hm"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ZB0-kh-mrc">
                                 <rect key="frame" x="275" y="588" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="movieStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="Sdh-hW-HFC"/>
+                                </connections>
                             </stepper>
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="7gc-av-gzt">
                                 <rect key="frame" x="275" y="653" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="gtswagStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="mDw-H6-vTf"/>
+                                </connections>
                             </stepper>
                             <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mhK-hf-Hko">
                                 <rect key="frame" x="0.0" y="34" width="414" height="44"/>
@@ -408,6 +481,9 @@
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="gij-1L-plO">
                                 <rect key="frame" x="275" y="717" width="94" height="29"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="macbookStepper:" destination="SVR-bu-aMa" eventType="valueChanged" id="aU7-fc-oOZ"/>
+                                </connections>
                             </stepper>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="n3i-8R-pSM">
                                 <rect key="frame" x="132" y="136" width="150" height="2"/>
@@ -490,18 +566,45 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="ku3-yE-jUC">
+                                <rect key="frame" x="275" y="209" width="94" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="waterStep:" destination="SVR-bu-aMa" eventType="valueChanged" id="IL4-IN-25a"/>
+                                    <action selector="waterStep:" destination="AaX-Cu-hys" eventType="valueChanged" id="fXN-ut-qCI"/>
+                                </connections>
+                            </stepper>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="lhh-IK-NCI"/>
                     </view>
+                    <navigationItem key="navigationItem" id="V0U-8R-1h7"/>
+                    <connections>
+                        <outlet property="bowlingCount" destination="F9K-HM-Vv2" id="osW-Tt-i7V"/>
+                        <outlet property="cashLabel" destination="Gn3-L2-upW" id="Svv-S6-GSn"/>
+                        <outlet property="foodCount" destination="nJB-pe-61E" id="Wz4-uP-h4A"/>
+                        <outlet property="gtswagCount" destination="AqE-Ar-itf" id="iO0-kf-C82"/>
+                        <outlet property="macbookCount" destination="MCg-cQ-Mbe" id="chg-uq-TS7"/>
+                        <outlet property="mealCount" destination="2kP-ks-Agr" id="S6O-kn-FU9"/>
+                        <outlet property="movieCount" destination="KWQ-p2-kZG" id="GlG-A1-VHM"/>
+                        <outlet property="snackCount" destination="WyD-cp-QXO" id="L49-Ue-Mgl"/>
+                        <outlet property="uberCount" destination="dYM-sF-WsP" id="F3Q-gR-rPN"/>
+                        <outlet property="waterCount" destination="LU4-fU-aQJ" id="QxZ-eq-zv2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sIq-NW-BEV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="AaX-Cu-hys" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="2327.536231884058" y="-634.15178571428567"/>
         </scene>
     </scenes>
     <resources>
         <image name="MarketPlace" width="1600" height="800"/>
+        <image name="campus" width="1242" height="2208"/>
         <image name="travel" width="560" height="280"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="4z1-MX-Dl2"/>
+        <segue reference="2H3-fz-IpF"/>
+    </inferredMetricsTieBreakers>
 </document>
