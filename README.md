@@ -8,3 +8,15 @@ First attempt at iOS app using Swift made in 2 days, please excuse the bad code.
 <img width="380" alt="4" src="https://user-images.githubusercontent.com/32786111/61595440-43729300-abc5-11e9-8d71-a170e115c867.png">
 <img width="381" alt="5" src="https://user-images.githubusercontent.com/32786111/61595441-466d8380-abc5-11e9-9433-44e82361ca88.png">
 
+# About us 
+![0a6ccc34d5c243fc816638f011ffb76a](https://user-images.githubusercontent.com/32786111/65539985-7fcdb280-ded8-11e9-8a5a-b5d8494fb55b.jpeg)
+
+(Pictured from left to right)
+* Jason Au
+* Shivali Pandya
+* Will Berry
+* Peggy Zhao
+* Kibeom Kim
+
+# Found bugs?
+Contact me at: gearkim0614@gmail.com
